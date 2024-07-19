@@ -583,19 +583,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 294618027}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 294618029}
-        m_TargetAssemblyTypeName: VolumeToggle, Assembly-CSharp
-        m_MethodName: ToggleMusic
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &294618027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -646,7 +634,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd230db119c1354aaff20bdc69a64e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _button: {fileID: 294618026}
   _audioMixer: {fileID: 24300002, guid: c21c2901f9d49e446a8c42761d6bf36b, type: 2}
+  _slider: {fileID: 1553637094}
 --- !u!1 &353163634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,19 +1435,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 908376025}
-        m_TargetAssemblyTypeName: VolumeChanger, Assembly-CSharp
-        m_MethodName: Change
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &908376025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2653,7 +2631,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1553637093}
   - component: {fileID: 1553637094}
-  - component: {fileID: 1553637095}
   m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
@@ -2734,33 +2711,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1553637095}
-        m_TargetAssemblyTypeName: VolumeChanger, Assembly-CSharp
-        m_MethodName: Change
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1553637095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553637092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27068a3e27fc49349a07e2efac5ea260, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _audioMixer: {fileID: 24300002, guid: c21c2901f9d49e446a8c42761d6bf36b, type: 2}
-  _slider: {fileID: 1553637094}
+      m_Calls: []
 --- !u!1 &1663188623
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,19 +3180,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1831952097}
-        m_TargetAssemblyTypeName: VolumeChanger, Assembly-CSharp
-        m_MethodName: Change
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1831952097
 MonoBehaviour:
   m_ObjectHideFlags: 0
